@@ -7,6 +7,8 @@
 
 
 public class P1_OutputLoopResult {
+	
+	static int finalResult;
 
 	public static void main(String[] args) {
 		printSumOfSquaresTo5();
@@ -16,9 +18,11 @@ public class P1_OutputLoopResult {
 		for( int i = 1; i <= 5; i++ ) {
 			int finalResult = 0;
 			finalResult = finalResult + i * i;
+			System.out.println("Final result is: " + finalResult);
+			
 		}
 		
-		System.out.println( "Final result is: " + finalResult );
+		
 	}
 
 }
