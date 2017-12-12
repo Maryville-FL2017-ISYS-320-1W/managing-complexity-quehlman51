@@ -1,6 +1,6 @@
 /*
   	ISYS 320
-  	Name(s):
+  	Name(s): A.J. Quehl
   	Date: 
 */
 
@@ -13,14 +13,19 @@
   
 Line Number		| HEADING		| HEADING		| HEADING		| HEADING		| HEADING		|	
 
+/*Each line after the first line will have 2 * the line number of slashes with an
+ * inverse number of bangs for each line.
+ */
 
 
 
 
-*/
 
 /* 3. Using your analysis from above, in pseudocode describe the algorithm for how to draw the figure
- 
+ for (6 lines) {
+ 	draw an incrementing number of slashes and decrementing number of bangs
+ 	}
+ 	go to a new output line
  
  
  
@@ -30,6 +35,7 @@ Line Number		| HEADING		| HEADING		| HEADING		| HEADING		| HEADING		|
 public class P2_SlashesAndBangs {
 
 	public static void main(String[] args) {
+
 
 	}
 
